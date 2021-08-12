@@ -1,0 +1,37 @@
+---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 8/12/21, 2:00 PM
+Description: Exception in server tick loop
+
+java.net.UnknownHostException: https://Minecraft-Server-On-Replit-1.blitz03.repl.co: Name or service not known
+	at java.base/java.net.Inet4AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:929)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1519)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1368)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1302)
+	at java.base/java.net.InetAddress.getByName(InetAddress.java:1252)
+	at zg.d(SourceFile:137)
+	at net.minecraft.server.MinecraftServer.w(SourceFile:645)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:257)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.5
+	Minecraft Version ID: 1.16.5
+	Operating System: Linux (amd64) version 5.8.0-1038-gcp
+	Java Version: 11.0.11, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 674323968 bytes (643 MB) / 1073741824 bytes (1024 MB) up to 1073741824 bytes (1024 MB)
+	CPUs: 3
+	JVM Flags: 2 total; -Xmx1G -Xms1G
+	Data Packs: vanilla
+	Is Modded: Unknown (can't tell)
+	Type: Dedicated Server (map_server.txt)
